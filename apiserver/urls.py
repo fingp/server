@@ -3,5 +3,7 @@ from . import views
 
 urlpatterns = [
     url(r'^$', views.post_list),
-    url('board/', views.board),
+    url(r'^board', views.board),
+    url(r'^login', views.login),
+    url(r'^getassignment', views.getassignment),
 ]
